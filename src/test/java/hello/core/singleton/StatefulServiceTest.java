@@ -23,7 +23,8 @@ class StatefulServiceTest {
 
 		//ThreadA: 사용자A 주문 금액 조회
 		//int price = statefulService1.getPrice();
-		System.out.println("price = " + userAPrice);
+		System.out.println("price A = " + userAPrice);
+		System.out.println("price B = " + userBPrice);
 
 		//Assertions.assertThat(statefulService1.getPrice()).isEqualTo(20000);
 
